@@ -1,0 +1,43 @@
+.square{
+    width: 39vw;
+    height: 39vw;
+    margin-bottom: 1rem; 
+    background-color: gray;
+    overflow:hidden;
+}
+
+.square-images{
+    width: 100%;
+}
+.square-images-height{
+    height: 100%;
+}
+
+.carousel-text{
+    z-index: 2;
+    color:white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-text > h1 {
+    text-shadow: 1px 1px 10px black; 
+    font-size: 4rem;
+}
+
+.poc_title{
+    width: 100px;
+}
+
+.location-pic{
+    height:200px;
+    width:300px;
+    background-color:gray ;
+}
+
+/* .carousel-item.active{
+    filter:blur(4.5px);
+} */
